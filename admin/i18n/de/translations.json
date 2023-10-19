@@ -3,7 +3,7 @@
 	"SIGNL4 Webhook URL": "SIGNL4 Webhook URL, von Integrations -> Installed -> Inbound Webhook.",
 	"X-S4-Service": "X-S4-Service",
 	"X-S4-Location": "X-S4-Location",
-	"X-S4-AlertingScenario": X-S4-AlertingScenario",
+	"X-S4-AlertingScenario": "X-S4-AlertingScenario",
 	"X-S4-Filtering": "X-S4-Filtering",
 	"X-S4-ExternalID": "X-S4-ExternalID",
 	"X-S4-Status": "X-S4-Status"

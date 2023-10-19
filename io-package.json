@@ -52,6 +52,7 @@
         "icon": "signl4.png",
         "enabled": true,
         "extIcon": "https://raw.githubusercontent.com/rons4/ioBroker.signl4/main/admin/signl4.png",
+        "type": "messaging",
         "readme": "https://github.com/rons4/ioBroker.signl4/blob/main/README.md",
         "loglevel": "info",
         "mode": "daemon",
