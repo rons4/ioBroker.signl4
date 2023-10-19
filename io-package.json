@@ -1,0 +1,92 @@
+{
+    "common": {
+        "name": "signl4",
+        "version": "0.0.1",
+        "news": {
+            "0.0.1": {
+                "en": "initial release",
+                "de": "Erstveröffentlichung",
+                "ru": "Начальная версия",
+                "pt": "lançamento inicial",
+                "nl": "Eerste uitgave",
+                "fr": "Première version",
+                "it": "Versione iniziale",
+                "es": "Versión inicial",
+                "pl": "Pierwsze wydanie",
+                "zh-cn": "首次出版",
+                "uk": "початковий випуск"
+            }
+        },
+        "title": "SIGNL4: Mobile Alerting",
+        "titleLang": {
+            "en": "SIGNL4: Mobile Alerting",
+            "de": "SIGNL4: Mobile Alerting",
+            "ru": "SIGNL4: Mobile Alerting",
+            "pt": "SIGNL4: Mobile Alerting",
+            "nl": "SIGNL4: Mobile Alerting",
+            "fr": "SIGNL4: Mobile Alerting",
+            "it": "SIGNL4: Mobile Alerting",
+            "es": "SIGNL4: Mobile Alerting",
+            "pl": "SIGNL4: Mobile Alerting",
+            "zh-cn": "SIGNL4: Mobile Alerting",
+            "uk": "SIGNL4: Мобільні оповіщення"
+        },
+        "desc": {
+            "en": "SIGNL4 offers critical alerting, incident response and service dispatching for operating critical infrastructure. It alerts you persistently via app push, SMS text and voice calls including tracking, escalation, collaboration and duty planning.",
+            "de": "SIGNL4 bietet kritische Alarmierung, Störungsreaktion und Service-Disposition für den Betrieb kritischer Infrastrukturen. Es alarmiert dich persistent über App-Push, SMS und Sprachanrufe, einschließlich Verfolgung, Eskalation, Zusammenarbeit und Bereitschaftsplanung."
+        },
+        "authors": [
+            "Ron <ron@signl4.com>"
+        ],
+        "keywords": [
+            "alerting",
+            "alarm",
+            "alert",
+            "on-call",
+            "mobile",
+            "app"
+        ],
+        "license": "MIT",
+        "platform": "Javascript/Node.js",
+        "main": "main.js",
+        "icon": "signl4.png",
+        "enabled": true,
+        "extIcon": "https://raw.githubusercontent.com/rons4/ioBroker.signl4/main/admin/signl4.png",
+        "readme": "https://github.com/rons4/ioBroker.signl4/blob/main/README.md",
+        "loglevel": "info",
+        "mode": "daemon",
+        "messagebox": true,
+        "supportedMessages": {
+          "custom": true,
+          "notifications": true
+        },
+        "compact": true,
+        "connectionType": "cloud",
+        "dataSource": "poll",
+        "blockly": true,
+        "adminUI": {
+            "config": "json"
+        },
+        "dependencies": [
+            {
+                "js-controller": ">=3.3.22"
+            }
+        ],
+        "globalDependencies": [
+            {
+                "admin": ">=5.1.13"
+            }
+        ]
+    },
+    "native": {
+        "SIGNL4 Webhook URL": "https://connect.signl4.com/webhook/****",
+        "X-S4-Service": "42",
+        "X-S4-Location": "",
+        "X-S4-AlertingScenario": "",
+        "X-S4-Filtering": false,
+        "X-S4-ExternalID": "",
+        "X-S4-Status": "new"
+    },
+    "objects": [],
+    "instanceObjects": []
+}
