@@ -1,0 +1,10 @@
+{
+    "signl4 adapter settings": "Paramètres de l'adaptateur pour signl4",
+    "SIGNL4 Webhook URL": "URL du Webhook SIGNL4, depuis Intégrations -> Installé -> Webhook entrant.",
+    "X-S4-Service": "Service X-S4",
+    "X-S4-Location": "X-S4-Emplacement",
+    "X-S4-AlertingScenario": "Scénario d'alerte X-S4",
+    "X-S4-Filtering": "Filtrage X-S4",
+    "X-S4-ExternalID": "X-S4-IDExterne",
+    "X-S4-Status": "Statut X-S4"
+}

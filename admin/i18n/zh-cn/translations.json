@@ -1,0 +1,10 @@
+{
+    "signl4 adapter settings": "signall4 的适配器设置",
+    "SIGNL4 Webhook URL": "SIGNL4 Webhook URL，来自集成 -> 已安装 -> 入站 Webhook。",
+    "X-S4-Service": "X-S4-服务",
+    "X-S4-Location": "X-S4-位置",
+    "X-S4-AlertingScenario": "X-S4-警报场景",
+    "X-S4-Filtering": "X-S4-过滤",
+    "X-S4-ExternalID": "X-S4-外部ID",
+    "X-S4-Status": "X-S4-状态"
+}
