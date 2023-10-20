@@ -33,7 +33,16 @@
         },
         "desc": {
             "en": "SIGNL4 offers critical alerting, incident response and service dispatching for operating critical infrastructure. It alerts you persistently via app push, SMS text and voice calls including tracking, escalation, collaboration and duty planning.",
-            "de": "SIGNL4 bietet kritische Alarmierung, Störungsreaktion und Service-Disposition für den Betrieb kritischer Infrastrukturen. Es alarmiert dich persistent über App-Push, SMS und Sprachanrufe, einschließlich Verfolgung, Eskalation, Zusammenarbeit und Bereitschaftsplanung."
+            "de": "SIGNL4 bietet kritische Alarmierung, Störungsreaktion und Service-Disposition für den Betrieb kritischer Infrastrukturen. Es alarmiert dich persistent über App-Push, SMS und Sprachanrufe, einschließlich Verfolgung, Eskalation, Zusammenarbeit und Bereitschaftsplanung.",
+            "ru": "SIGNL4 предлагает критические оповещения, реагирование на инциденты и диспетчеризацию услуг для эксплуатации критически важной инфраструктуры. Он постоянно предупреждает вас посредством нажатия приложений, текстовых SMS-сообщений и голосовых вызовов, включая отслеживание, эскалацию, сотрудничество и планирование обязанностей.",
+            "pt": "SIGNL4 oferece alertas críticos, resposta a incidentes e despacho de serviços para operação de infraestrutura crítica. Ele alerta você persistentemente por meio de envio de aplicativo, texto SMS e chamadas de voz, incluindo rastreamento, escalonamento, colaboração e planejamento de tarefas.",
+            "nl": "SIGNL4 biedt kritieke waarschuwingen, incidentrespons en serviceverzending voor het exploiteren van kritieke infrastructuur. Het waarschuwt u voortdurend via app-push, sms-berichten en spraakoproepen, inclusief tracking, escalatie, samenwerking en dienstplanning.",
+            "fr": "SIGNL4 propose des alertes critiques, une réponse aux incidents et une répartition des services pour l'exploitation des infrastructures critiques. Il vous alerte en permanence via l'application push, les SMS et les appels vocaux, y compris le suivi, l'escalade, la collaboration et la planification des tâches.",
+            "it": "SIGNL4 offre avvisi critici, risposta agli incidenti e invio di servizi per il funzionamento delle infrastrutture critiche. Ti avvisa costantemente tramite push dell'app, SMS e chiamate vocali, incluso il monitoraggio, l'escalation, la collaborazione e la pianificazione dei compiti.",
+            "es": "SIGNL4 ofrece alertas críticas, respuesta a incidentes y envío de servicios para operar infraestructura crítica. Le alerta de manera persistente a través de aplicaciones push, mensajes de texto SMS y llamadas de voz, incluido seguimiento, escalamiento, colaboración y planificación de tareas.",
+            "pl": "SIGNL4 oferuje krytyczne alerty, reakcję na incydenty i wysyłanie usług w zakresie obsługi infrastruktury krytycznej. Stale ostrzega Cię za pomocą aplikacji push, SMS-ów i połączeń głosowych, włączając śledzenie, eskalację, współpracę i planowanie obowiązków.",
+            "uk": "SIGNL4 пропонує оповіщення про критичні ситуації, реагування на інциденти та диспетчеризацію послуг для роботи критичної інфраструктури. Він постійно сповіщає вас за допомогою push-повідомлень додатків, текстових SMS і голосових викликів, включаючи відстеження, ескалацію, співпрацю та планування обов’язків.",
+            "zh-cn": "SIGNL4 为运营关键基础设施提供关键警报、事件响应和服务调度。它通过应用程序推送、短信和语音通话持续提醒您，包括跟踪、升级、协作和值班计划。"
         },
         "authors": [
             "Ron <ron@signl4.com>"
@@ -58,14 +67,15 @@
         "mode": "daemon",
         "messagebox": true,
         "supportedMessages": {
-          "custom": true,
-          "notifications": true
+            "custom": false,
+            "notifications": true
         },
         "compact": true,
         "connectionType": "cloud",
         "dataSource": "poll",
         "blockly": true,
         "adminUI": {
+            "custom": "json",
             "config": "json"
         },
         "dependencies": [

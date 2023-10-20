@@ -196,7 +196,7 @@ class Signl4 extends utils.Adapter {
 		json["X-S4-Status"] = this.config.x_s4_status;
 		json["X-S4-SourceSystem"] = "ioBroker";
 
-		// Remember adapter for callback functions
+		// Remember adapter for the event functions
 		adapter = this;
 
 		// Send request
