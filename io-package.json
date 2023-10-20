@@ -67,7 +67,6 @@
         "mode": "daemon",
         "messagebox": true,
         "supportedMessages": {
-            "custom": false,
             "notifications": true
         },
         "compact": true,
@@ -75,7 +74,6 @@
         "dataSource": "poll",
         "blockly": true,
         "adminUI": {
-            "custom": "json",
             "config": "json"
         },
         "dependencies": [
