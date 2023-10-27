@@ -112,12 +112,12 @@ For later updates, the above procedure is not necessary. Just do the following:
 -->
 
 ### **WORK IN PROGRESS**
-* (Ron) initial release
+* (SIGNL4) initial release
 
 ## License
 MIT License
 
-Copyright (c) 2023 Ron <ron@signl4.com>
+Copyright (c) 2023 SIGNL4 <ron@signl4.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
