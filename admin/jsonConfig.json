@@ -6,19 +6,19 @@
 			"type": "text",
 			"label": "SIGNL4 Webhook URL", 
 			"help": "SIGNL4 Webhook URL, from Integrations -> Installed -> Inbound Webhook.",
-			"helplink": "https://connect.signl4.com/webhook/docs/index.html",
+			"helpLink": "https://connect.signl4.com/webhook/docs/index.html",
 			"newLine": true
 		},
 		"x_s4_service": {
 			"type": "text",
 			"label": "X-S4-Service",
-			"helplink": "https://connect.signl4.com/webhook/docs/index.html",
+			"helpLink": "https://connect.signl4.com/webhook/docs/index.html",
 			"newLine": true
 		},
 		"x_s4_location": {
 			"type": "text",
 			"label": "X-S4-Location",
-			"helplink": "https://connect.signl4.com/webhook/docs/index.html",
+			"helpLink": "https://connect.signl4.com/webhook/docs/index.html",
 			"newLine": true
 		},
 		"x_s4_alertingscenario": {
@@ -42,19 +42,19 @@
 					"value": ""
 				}
 			],
-			"helplink": "https://connect.signl4.com/webhook/docs/index.html",
+			"helpLink": "https://connect.signl4.com/webhook/docs/index.html",
 			"newLine": true
 		},
 		"x_s4_filtering": {
 			"type": "checkbox",
 			"label": "X-S4-Filtering",
-			"helplink": "https://connect.signl4.com/webhook/docs/index.html",
+			"helpLink": "https://connect.signl4.com/webhook/docs/index.html",
 			"newLine": true
 		},
 		"x_s4_externalid": {
 			"type": "text",
 			"label": "X-S4-ExternalID",
-			"helplink": "https://connect.signl4.com/webhook/docs/index.html",
+			"helpLink": "https://connect.signl4.com/webhook/docs/index.html",
 			"newLine": true
 		},
 		"x_s4_status": {
@@ -74,7 +74,7 @@
 					"value": "resolved"
 				}
 			],
-			"helplink": "https://connect.signl4.com/webhook/docs/index.html",
+			"helpLink": "https://connect.signl4.com/webhook/docs/index.html",
 			"newLine": true
 		}
 	}

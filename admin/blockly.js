@@ -32,13 +32,14 @@ Blockly.Blocks['signl4'] = {
             .appendField(Blockly.Words['signl4'][systemLang])
             .appendField(new Blockly.FieldDropdown([[Blockly.Words['signl4_anyInstance'][systemLang], ""], ["signl4.0", ".0"], ["signl4.1", ".1"], ["signl4.2", ".2"], ["signl4.3", ".3"], ["signl4.4", ".4"]]), "INSTANCE");
 
+        var input = this.appendValueInput("SUBJECT")
+            .setCheck('String')
+            .appendField(Blockly.Words['signl4_subject'][systemLang]);
+
         this.appendValueInput('BODY')
             .setCheck('String')
             .appendField(Blockly.Words['signl4_body'][systemLang]);
 
-        var input = this.appendValueInput("SUBJECT")
-            .setCheck('String')
-            .appendField(Blockly.Words['signl4_subject'][systemLang]);
         if (input.connection) input.connection._optional = true;
 
         this.setInputsInline(false);
@@ -52,7 +53,7 @@ Blockly.Blocks['signl4'] = {
 Blockly.JavaScript['signl4'] = function(block) {
     var dropdown_instance = block.getFieldValue('INSTANCE');
 	
-    var message  = Blockly.JavaScript.valueToCode(block, 'TEXT', Blockly.JavaScript.ORDER_ATOMIC);
+    var message  = Blockly.JavaScript.valueToCode(block, 'BODY', Blockly.JavaScript.ORDER_ATOMIC);
 
     var text = '{\n';
     value = Blockly.JavaScript.valueToCode(block, 'SUBJECT', Blockly.JavaScript.ORDER_ATOMIC);
